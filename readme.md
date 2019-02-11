@@ -4,11 +4,11 @@ We gaan deze oefening samen maken tijdens de eerste twee lessen. De bedoeling is
 - JS op een correcte en nette manier te schrijven.
 - HTML te herhalen.
 - CSS te herhalen; variabelen, CSS-grid, ITCSS schrijven.
-- Om SEO-vriendelijk te werk te gaan.
+- SEO-vriendelijk te werk te gaan.
 
 ## Layout
 Je bent vrij om de layout aan te passen en kleuren of fonts zelf te kiezen.
-De opgave heeft als kleuren: #de4831, #e1decb en #221e21. De gutter is meestal 24px of eventueel een ander veelvoud van 8. Als font wordt [Sarabun](https://fonts.google.com/specimen/Sarabun) gebruikt.
+De opgave heeft als kleuren: #de4831, #e1decb en #221e21. De gutter is meestal 24px of eventueel een ander veelvoud van 8px. Als font wordt [Sarabun](https://fonts.google.com/specimen/Sarabun) gebruikt.
 
 ## HTML
 We gebruiken zoveel mogelijk de correcte semantische tags.
@@ -23,13 +23,13 @@ Een vlag krijgt als property ```max-height: 15px;``` en een ```border-radius: 4p
 
 ## Script
 We kunnen de werking van JS in deze oefening momenteel in drie onderdeel verdelen:
-### 1 Data ophalen en tonen
+### 1. Data ophalen en tonen
 - ```enableListeners``` Als de DOM geladen is, kan je listeners beginnen toevoegen.
 - ```fetchData``` Deze functie zal de data ophalen van http://restcountries.eu aan de hand van het continent wat meegegeven wordt.
 - ```fillCountries``` Verwerk de JSON data van de API en toon de landen.
 - ```addEventListenersToCountries``` Als er nieuwe landen toegevoegd worden, moet je hier op kunnen klikken om de lokale landen bij te houden.
 
-### 2 Werken met de localStorage
+### 2. Werken met de localStorage
 Schrijf functies voor alle basis acties bij het werken met de locale data voor onze landen-array:
 - ```getLocalCountries```
 - ```addLocalCountry```
@@ -38,8 +38,10 @@ Schrijf functies voor alle basis acties bij het werken met de locale data voor o
 
 Sommige van deze functies zullen de unieke key voor het huidige land meekrijgen.
 
-### 3 Progress bijhouden en updaten
+### 3. Progress bijhouden en updaten
 - ```updateCounter``` Een functie die de DOM zal aanpassen aan de hand van de huidige landen in localStorage. Deze functie zullen we vaak in de code aanroepen (na updates in de localStorage).
+
+![Travel Planner oefening](https://i.imgur.com/pPZMdM6.png)
 
 ## Uitbreiding:
 - Toon per continent het aantal bezochte landen.
