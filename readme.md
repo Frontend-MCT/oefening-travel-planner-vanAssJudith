@@ -36,7 +36,8 @@ Schrijf functies voor alle basis acties bij het werken met de locale data voor o
 - ```hasLocalCountry```
 - ```removeLocalCountries```
 
-Sommige van deze functies zullen de unieke key voor het huidige land meekrijgen.
+Sommige van deze functies zullen de unieke key voor het huidige land meekrijgen. Hoe kunnen we dit meer generiek houden?
+**Tip: We moeten een datatype kunnen voorzien.**
 
 ### 3. Progress bijhouden en updaten
 - ```updateCounter``` Een functie die de DOM zal aanpassen aan de hand van de huidige landen in localStorage. Deze functie zullen we vaak in de code aanroepen (na updates in de localStorage).
@@ -44,7 +45,12 @@ Sommige van deze functies zullen de unieke key voor het huidige land meekrijgen.
 ![Travel Planner oefening](https://i.imgur.com/pPZMdM6.png)
 
 ## Uitbreiding:
-- Toon per continent het aantal bezochte landen.
-- Voorzie een knop om alle progress te clearen.
 - Hoe zou je SEO kunnen verbeteren op deze pagina(s)? Bespreek dit tijdens de les.
+- Voorzie een knop om alle progress te clearen.
+- Maak de website responsive:
+	- Voorzie een mobile menu. Wat zijn de opties?
+	- Bekijk de lighthouse-score. Wat kan er verbeterd worden? Check ook de andere lighthouse-testen.
+
+
+- Toon per continent het aantal bezochte landen.
 - Voorzie een melding bij het toevoegen of verwijderen van een bezocht land.
